@@ -45,3 +45,4 @@ Vite ghi kết quả vào `dist/`. Bước sau build sao chép `index.html` vào
 | `/contact/` | Trang liên hệ chờ thông tin thật |
 
 Atlas Journal, Forma, Mori và ba bài viết đều là **nội dung minh họa**, không được trình bày như công việc đã triển khai hay bài viết đã xuất bản. Thông tin liên hệ chưa được gắn vì chưa có địa chỉ do người dùng cung cấp.
+# MyPortfolio
