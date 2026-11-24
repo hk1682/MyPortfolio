@@ -1,6 +1,6 @@
 # Kỳ Phạm — Personal Lab
 
-Website cá nhân nhiều trang viết bằng **React + Vite**. Dự án chạy trên máy; các lệnh bên dưới không tạo Site hay domain và không triển khai website lên dịch vụ nào. Repo GitHub, nếu có, chỉ lưu mã nguồn.
+Website cá nhân nhiều trang viết bằng **React + Vite**, với giao diện **pixel art 2D** trên nhánh `codex/pixel-art`. Dự án chạy trên máy; các lệnh bên dưới không tạo Site hay domain và không triển khai website lên dịch vụ nào. Repo GitHub, nếu có, chỉ lưu mã nguồn.
 
 ## Chạy local
 
@@ -26,7 +26,9 @@ Vite ghi kết quả vào `dist/`. Bước sau build sao chép `index.html` vào
 - `src/components/SiteShell.jsx`: header, footer, tiêu đề trang và bố cục chung.
 - `src/pages/`: trang chủ, hồ sơ, dự án, bài viết, ghi chú, Lab, bộ công cụ, liên hệ.
 - `src/data.js`: ba concept dự án và ba bài viết mẫu.
-- `src/styles.css`, `src/pages.css`: giao diện và responsive.
+- `src/styles.css`, `src/pages.css`: bố cục và responsive gốc.
+- `src/pixel.css`: màu sắc, kiểu chữ, khung pixel và responsive cho giao diện mới.
+- `src/components/PixelIllustration.jsx`: minh họa SVG vẽ bằng mã nguồn, không tải ảnh hay font từ bên ngoài.
 - `scripts/copy-routes.mjs`: chuẩn bị 14 tuyến đường trong bản build local.
 
 ## Nội dung hiện tại

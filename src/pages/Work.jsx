@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { projects } from '../data.js';
 import { Breadcrumb, Layout, NextLink, PageHero } from '../components/SiteShell.jsx';
+import { PixelProjectArt } from '../components/PixelIllustration.jsx';
 
 export function WorkVisual({ project }) {
-  return <div className={`work-visual work-visual-${project.className}`} aria-hidden="true"><span className="work-visual-label">{project.kind.toUpperCase()} / CONCEPT</span><strong>{project.title}</strong><i>✳</i></div>;
+  return <div className={`work-visual work-visual-${project.className}`} aria-hidden="true"><PixelProjectArt slug={project.slug} /><span className="work-visual-label">{project.kind.toUpperCase()} / CONCEPT</span><strong>{project.title}</strong></div>;
 }
 
 export function WorkCard({ project, featured = false }) {
